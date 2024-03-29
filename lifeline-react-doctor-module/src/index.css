@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-primary {
+  display: flex;
+  border-radius: 100px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #3a8ef6, #6f3afa);
+  color: white;
+  font-weight: 600; /* semibold */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* clean drop shadow */
+}
+
+.ant-btn css-dev-only-do-not-override-1ae8k9u ant-btn-primary ant-btn-sm {
+  border: 1px solid #3a8ff6a6;
+  color: #0b132b;
+}
+
+.app-header {
+  @apply text-3xl font-semibold;
+}
+
+* {
+  @apply scrollbar-hide;
+}
